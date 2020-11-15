@@ -1,0 +1,39 @@
+{
+  "name": "zxh-pages",
+  "version": "0.1.0",
+  "description": "Awesome node module",
+  "keywords": [
+    "zxh-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/maxiaozhang/zxh-pages#readme",
+  "bugs": {
+    "url": "https://github.com/maxiaozhang/zxh-pages/issues"
+  },
+  "license": "MIT",
+  "author": "zhangxiaohu <280075549@qq.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxiaozhang/zxh-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
